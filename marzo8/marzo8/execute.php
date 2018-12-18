@@ -54,6 +54,7 @@
 		}
 		If($text=="ciao"){
 			$text = "Benvenuto sul bot dell'8 marzo";
+			}
 		
 		//aggiungo il comando di invio
 		//e lo invio
