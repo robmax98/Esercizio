@@ -54,13 +54,15 @@
 		}
 		If($text=="ciao"){
 			$text = "Benvenuto sul bot dell'8 marzo";
-			}
+			
 		
 		//aggiungo il comando di invio
 		//e lo invio
 		
 		$parameters["method"] = "sendMessage";
-        echo json_encode($parameters);
+        echo json_encode($parameters)
+	
+	}
 		
 		
 		
