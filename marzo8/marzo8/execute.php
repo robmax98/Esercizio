@@ -48,7 +48,7 @@
 		$parameters = array('chat_id' => $chatId, "text" => $text);
 		If ($text==""data"){
 			
-			$text= "Ladata odierna è".date("d.m.y");
+			$text= "La data odierna è".date("d.m.y");
 		$parameters = array('chat_id' => $chatId, "text" => $text);	
 		
 		}
